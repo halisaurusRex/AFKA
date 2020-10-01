@@ -1,0 +1,59 @@
+.primary-button {
+  background-color: #3F612D;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  /*font-family: 'Palanquin Dark', sans-serif;*/
+}
+
+.secondary-button {
+  background-color: white;
+  color: #3F612D;
+  border-radius: 5px;
+  border: 1px solid #3F612D;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Palanquin Dark', sans-serif;*/
+}
+
+.headline-font-style {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+.subhead-font-style {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.body-font-style {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18;
+  font-weight: 300;
+}
+.hero-subhead-font-style {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  color: #DCEED1;
+}
+.hero-headline-font-style {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+.quote-font-style {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.caption-font-style {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}

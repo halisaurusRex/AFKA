@@ -1,0 +1,33 @@
+#membership-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#membership-cards .card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border: none;
+  align-self: flex-start;
+}
+
+#membership-cards .leaf img {
+  width: 93px;
+}
+
+#membership-cards .tree img {
+  width: 68px;
+}
+
+#membership-cards .trees img {
+  width: 110px;
+}
+
+.button-row {
+  margin-top: 20px;
+}
+#membership-levels {
+  margin-top: 50px
+}

@@ -1,0 +1,22 @@
+#donate {
+  margin-top: 50px;
+  background-color: #DCEED1;
+  height: 419px;
+  display: flex;
+  flex-direction: row;
+}
+
+#donate img {
+  width: 50%;
+}
+
+#donate .body-font-style {
+  margin-bottom: 20px;
+}
+
+.donate-text-box {
+  margin: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

@@ -1,0 +1,108 @@
+/* colors
+  - dkGreen #3F612D
+  - green   #329F5B
+  - mint    #DCEED1
+  - brown   #522D1D
+  - blue    #3D679E
+  - black   #343434
+*/
+
+* {
+  box-sizing: border-box;
+}
+  body, html {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 1440px;
+}
+#wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Header Selectors */
+.header-components {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #DCEED1;
+  height: 81px;
+  width: 100%;
+}
+
+.header-component {
+  flex-grow: 3;
+}
+
+.nav-item a {
+  color: black;
+}
+.nav-pills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.header-component-side {
+  width: 25%;
+  float: right;
+  flex-grow: 1;
+}
+
+.header-component .primary-button {
+  float: right;
+}
+
+/* Hero Selectors */
+.jumbotron-fluid {
+  background-image: url(/images/afka_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.hero-sub-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.hero-sub-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 318px;
+}
+.hero-text-container {
+  margin:0;
+  background-color: rgb(64,96,48, 0.8);
+  border-radius: 0 65px 65px 0;
+  color: white;
+  height: 300px;
+  width: 642px;
+}
+.hero-text-container .hero-headline-font-style {
+  margin-left: 50px;
+}
+.hero-text-container .hero-subhead-font-style {
+  margin-left: 50px;
+}
+
+/* Find A Kindergarten Selectors */
+#find-a-kindergarten {
+  margin-top: 75px;
+  background-color: #DCEED1;
+  height: 213px;
+}
+
+

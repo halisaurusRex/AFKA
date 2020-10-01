@@ -1,0 +1,28 @@
+#core-elements {
+  width: 1200px;
+  height: 418px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.core-element-container {
+  width: 552px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.core-element-container-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+.core-element-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
