@@ -9,6 +9,14 @@
   /*font-family: 'Palanquin Dark', sans-serif;*/
 }
 
+.primary-button:hover {
+  font-weight: 600;
+  text-decoration: none;
+  color: #3F612D;
+  background-color: white;
+  border: 0.25px solid #3F612D;
+}
+
 .secondary-button {
   background-color: white;
   color: #3F612D;
@@ -18,6 +26,14 @@
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   /*font-family: 'Palanquin Dark', sans-serif;*/
+}
+
+.secondary-button:hover {
+  font-weight: 600;
+  text-decoration: none;
+  color: #3F612D;
+  background-color: #DCEED1;
+  border: none;
 }
 
 .headline-font-style {
